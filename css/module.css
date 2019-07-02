@@ -5,3 +5,11 @@ section {
   text-align: center;
   font-size: 15px;
 }
+body{
+  background:#7ea8ed
+}
+@media (min-width:768px){
+  body{
+    background:#d690d8;
+  }
+}
