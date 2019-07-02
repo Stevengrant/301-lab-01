@@ -5,3 +5,25 @@ section {
   text-align: center;
   font-size: 15px;
 }
+/* Mobile */
+section:nth-child(1){background: #961515}
+section:nth-child(2){background: #10da3c}
+section:nth-child(3){background: #83601b}
+section:nth-child(4){background: #1ca19b}
+section:nth-child(5){background: #e2bf32}
+section:nth-child(6){background: #6b60c9}
+section:nth-child(7){background: #412441}
+section:nth-child(8){background: #f6fa0c}
+section:nth-child(9){background: #8ab340f5}
+/* desktop */
+@media (min-width:768px){
+  section:nth-child(1){background: #5ab852}
+section:nth-child(2){background: #a87644}
+section:nth-child(3){background: #61917e}
+section:nth-child(4){background: #4cbb55}
+section:nth-child(5){background: #c54363}
+section:nth-child(6){background: #b122dd}
+section:nth-child(7){background: #4694c9}
+section:nth-child(8){background: #c7dd4a}
+section:nth-child(9){background: #e70707}
+}
