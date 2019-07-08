@@ -32,9 +32,16 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
 @media (min-width:768px){
-
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 760px;
+  }
   main{
     width:960px;
   }
